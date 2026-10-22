@@ -1,0 +1,171 @@
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 100;
+  border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 110%;
+  background-color: #f8fafc;
+  color: #1e293b;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+/* Navigation styling - inline-block and 80% width */
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: #1e293b;
+  padding: 12px 0;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+/* Descendant selector: image in nav */
+nav img {
+  width: 10%;
+  position: relative;
+  top: 20px;
+  border-radius: 6px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Commented out li element styling as required by instructions */
+/* li {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+} */
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+  color: #7dd3fc;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #38bdf8;
+  margin: 16px 0 8px 0;
+}
+
+/* Main content */
+main {
+  background-color: #ffffff;
+  font-size: 105%;
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+  color: #334155;
+}
+
+main a {
+  color: #0284c7;
+  font-weight: 600;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+/* CSS Grid layout for .grid class */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+/* Descendant selector for images in grid class */
+.grid img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox layout for .flex class */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.flex img {
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 280px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #0f172a;
+  color: #94a3b8;
+  padding: 24px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  color: #94a3b8;
+  margin: 0;
+}
+
+footer a {
+  color: #38bdf8;
+}
